@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{937A2B96-222D-4F3D-8D59-1D739ABF30DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cleo", "cleo", "{FC770C0F-7406-4713-9EBD-C5C80532B7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmx.Cleo.Core", "cleo\Tmx.Cleo.Core\Tmx.Cleo.Core.csproj", "{5A35308A-3737-4123-A4E1-71717ED35B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicUsageSample", "samples\BasicUsageSample\BasicUsageSample.csproj", "{00733396-5607-442D-AEC7-57E43B955BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B67CA2F6-483A-4BC5-B56E-68E8E3ECBA82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A35308A-3737-4123-A4E1-71717ED35B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A35308A-3737-4123-A4E1-71717ED35B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A35308A-3737-4123-A4E1-71717ED35B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A35308A-3737-4123-A4E1-71717ED35B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00733396-5607-442D-AEC7-57E43B955BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00733396-5607-442D-AEC7-57E43B955BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00733396-5607-442D-AEC7-57E43B955BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00733396-5607-442D-AEC7-57E43B955BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A35308A-3737-4123-A4E1-71717ED35B0B} = {FC770C0F-7406-4713-9EBD-C5C80532B7BC}
+		{00733396-5607-442D-AEC7-57E43B955BAA} = {937A2B96-222D-4F3D-8D59-1D739ABF30DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD394329-775F-4044-89A7-9E3DD5731ECC}
+	EndGlobalSection
+EndGlobal
