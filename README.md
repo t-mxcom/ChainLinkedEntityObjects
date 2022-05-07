@@ -114,6 +114,7 @@ public interface IChangeNameChain : IChain
 - The chain builder will have to build a proxy object for every single chain link to direct the call through the chain. (`System.Reflection.DispatchProxy`)  
   https://devblogs.microsoft.com/dotnet/migrating-realproxy-usage-to-dispatchproxy/
 - A chain should be built in a railway oriented way.
+- CLEO is another way of Aspect Oriented Programming
 
 # Scratchpad
 
